@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><diagram program="umlet" version="13.3">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>90</x>
+      <y>150</y>
+      <w>210</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>Card
+--
++rank: integer
++suit: integer
+--
++Card(rank, suit)
++getRank(): integer
++getSuit(): integer
++compareTo(object): integer
++equals(object): 
++toString(): String</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
