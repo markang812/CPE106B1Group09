@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><diagram program="umlet" version="13.3">
+  <zoom_level>11</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>44</x>
+      <y>176</y>
+      <w>297</w>
+      <h>231</h>
+    </coordinates>
+    <panel_attributes>Person
+--
+-name: String
+-playPile: Pile(abstact data type)
+-wonPile: Pile(abstract data type)
+--
++Player(name)
++Card()
++getName(): string
++collectCard(Card c)
++collectCards(Pile p)
++wonPile()
++numCards(): int
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
